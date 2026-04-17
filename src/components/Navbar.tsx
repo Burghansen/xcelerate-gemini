@@ -34,10 +34,10 @@ export default function Navbar() {
         : "bg-transparent border-b border-transparent py-5 lg:py-7"
     }`}>
       <div className="container mx-auto px-6 md:px-12">
-        <div className="flex justify-between items-center">
+        <div className="flex items-center">
 
           {/* Logo */}
-          <Link to="/" className="flex items-center z-50 flex-shrink-0">
+          <Link to="/" className="flex items-center z-50 flex-shrink-0 w-40">
             <img
               src={LOGO_URL}
               alt="XCelerate Logo"
@@ -48,7 +48,7 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop nav links */}
-          <div className="hidden lg:flex items-center gap-1">
+          <div className="hidden lg:flex flex-1 justify-center items-center gap-1">
             {NAV_LINKS.filter(link => link.name !== "Contact Us").map((link) => {
               const isActive = location.pathname === link.path;
 
