@@ -84,19 +84,6 @@ export default function Navbar() {
             })}
           </div>
 
-          {/* CTA button */}
-          <div className="hidden lg:flex items-center">
-            <Link
-              to="/contact"
-              className={`text-[14px] font-semibold px-6 py-3 rounded-lg transition-all duration-200 shadow-sm hover:shadow-md hover:-translate-y-px ${
-                isLight
-                  ? 'bg-white text-gray-900 hover:bg-white/90'
-                  : 'bg-accent text-white hover:bg-accent/90'
-              }`}
-            >
-              Contact Us
-            </Link>
-          </div>
 
           {/* Mobile menu toggle */}
           <button
