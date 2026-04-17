@@ -16,7 +16,7 @@ const Contact = lazy(() => import("./pages/Contact"));
 
 export default function App() {
   return (
-    <Router basename="/xcelerate-mockup2">
+    <Router basename="/xcelerate-gemini">
       <Layout>
         <Suspense fallback={null}>
           <Routes>
