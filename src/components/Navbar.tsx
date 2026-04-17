@@ -83,7 +83,7 @@ export default function Navbar() {
           <button
             aria-label={isOpen ? "Close menu" : "Open menu"}
             aria-expanded={isOpen}
-            className="lg:hidden z-50 w-9 h-9 flex items-center justify-center rounded-md transition-colors text-white hover:bg-white/10"
+            className="lg:hidden ml-auto z-50 w-9 h-9 flex items-center justify-center rounded-md transition-colors text-white hover:bg-white/10"
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? <X size={20} strokeWidth={1.75} /> : <Menu size={20} strokeWidth={1.75} />}
