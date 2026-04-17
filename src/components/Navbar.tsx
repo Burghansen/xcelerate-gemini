@@ -30,8 +30,8 @@ export default function Navbar() {
   return (
     <nav className={`fixed top-0 w-full z-50 transition-all duration-400 ${
       scrolled
-        ? "bg-[#0f1923]/95 backdrop-blur-xl border-b border-white/10 shadow-[0_2px_20px_rgba(0,0,0,0.35)] py-3 lg:py-4"
-        : "bg-gradient-to-b from-black/60 to-transparent border-b border-white/10 py-5 lg:py-7"
+        ? "bg-[#0f1923]/90 backdrop-blur-xl border-b border-transparent shadow-[0_2px_24px_rgba(0,0,0,0.25)] py-3 lg:py-4"
+        : "bg-gradient-to-b from-black/50 to-transparent border-b border-transparent py-5 lg:py-7"
     }`}>
       <div className="container mx-auto px-6 md:px-12">
         <div className="flex items-center">
